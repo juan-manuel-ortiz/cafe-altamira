@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catas de cafe - Cafe Altamira</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+
+  <body>
+    <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+    <header class="encabezado">
+      <a class="logo" href="index.html">
+        <img src="img/grano.svg" alt="" width="28" height="28" />
+        Cafe Altamira
+      </a>
+
+      <nav aria-label="Principal">
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html#cafes">Cafes</a></li>
+          <li><a href="index.html#historia">Historia</a></li>
+          <li><a href="index.html#suscripcion">Suscripcion</a></li>
+          <li><a href="eventos.html" aria-current="page">Catas</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contenido" class="eventos">
+      <h1>Catas de Cafe Altamira</h1>
+      <figure class="evento-portada">
+        <img
+          src="img/cafe-geisha.svg"
+          alt="Bolsa de cafe Geisha de Altura"
+          width="300"
+          height="220"
+        />
+        <figcaption>Cata de Cafe Altamira</figcaption>
+      </figure>
+
+      <img class="grano-decorativo" src="img/grano.svg" alt="" width="40" height="40">
+
+      <section aria-labelledby="catas-titulo">
+        <h2 id="catas-titulo">Proximas catas</h2>
+
+        <article>
+          <h3>Cata Clasico Altamira</h3>
+          <p>
+            Fecha:
+            <time datetime="2026-11-20T16:00"
+              >20 de noviembre de 2026 - 4:00 p. m.</time
+            >
+          </p>
+          <p>Cupos: 15 personas</p>
+          <p>Precio: $20.000</p>
+        </article>
+
+        <article>
+          <h3>Cata Geisha de Altura</h3>
+          <p>
+            Fecha:
+            <time datetime="2026-11-21T10:00"
+              >21 de noviembre de 2026 - 10:00 a. m.</time
+            >
+          </p>
+          <p>Cupos: 12 personas</p>
+          <p>Precio: $30.000</p>
+        </article>
+
+        <article>
+          <h3>Cata Honey La Esmeralda</h3>
+          <p>
+            Fecha:
+            <time datetime="2026-11-22T14:00"
+              >22 de noviembre de 2026 - 2:00 p. m.</time
+            >
+          </p>
+          <p>Cupos: 18 personas</p>
+          <p>Precio: $25.000</p>
+        </article>
+      </section>
+      <section aria-labelledby="inscripcion-titulo">
+        <h2 id="inscripcion-titulo">Inscripcion a una cata</h2>
+
+        <form action="#" method="post">
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+
+          <div>
+            <label for="correo">Correo electronico</label>
+            <input type="email" id="correo" name="correo" required />
+          </div>
+
+          <fieldset>
+            <legend>Selecciona la cata</legend>
+
+            <input
+              type="radio"
+              id="clasico"
+              name="cata"
+              value="clasico"
+              required
+            />
+            <label for="clasico">Cata Clasico Altamira</label>
+
+            <input type="radio" id="geisha" name="cata" value="geisha" />
+            <label for="geisha">Cata Geisha de Altura</label>
+
+            <input type="radio" id="honey" name="cata" value="honey" />
+            <label for="honey">Cata Honey La Esmeralda</label>
+          </fieldset>
+
+          <div>
+            <input type="checkbox" id="datos" name="datos" required />
+            <label for="datos">Acepto el tratamiento de datos</label>
+          </div>
+
+          <button type="submit">Inscribirme</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="pie">
+      <p>Cafe Altamira - Santuario, Risaralda</p>
+    </footer>
+  </body>
+</html>
