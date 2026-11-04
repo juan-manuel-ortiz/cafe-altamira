@@ -128,7 +128,7 @@ body {
    WCAG AA pide 4.5:1. Cámbialo por uno más oscuro (por ejemplo var(--cafe)). */
 .precio {
   font-weight: 700;
-  color: #b59a7e;
+  color: var(--cafe);
 }
 
 /* ----- Historia ----- */
