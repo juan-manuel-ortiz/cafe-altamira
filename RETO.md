@@ -46,3 +46,9 @@ lista de verificación y demuestras que se cumple.
 ## Mi lista de verificación
 
 <!-- Escribe aquí tus 5 o más verificaciones -->
+- [x] Dado que abro eventos.html, cuando presiono Tab por primera vez, entonces puedo acceder al enlace "Saltar al contenido".
+- [x] Dado que estoy en la pagina de catas, cuando reviso los encabezados, entonces encuentro un unico h1 y no hay saltos de nivel.
+- [x] Dado que reviso las catas, cuando observo cada article, entonces encuentro su h3, fecha con time, cupos y precio.
+- [x] Dado que uso el formulario, cuando selecciono cada campo, entonces nombre y correo tienen label asociado y son obligatorios.
+- [x] Dado que elijo una cata, cuando reviso las opciones, entonces los radio estan agrupados dentro de fieldset con legend.
+- [x] Dado que reviso las imagenes, cuando analizo su proposito, entonces una tiene alt descriptivo y la decorativa tiene alt vacio.
