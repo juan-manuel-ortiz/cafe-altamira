@@ -105,13 +105,16 @@
          - El campo de correo necesita: <label for="...">, type="email", id y required.
          - El "botón" es un div con onclick: cámbialo por <button type="submit">.
          ============================================================ -->
-    <div class="seccion" id="suscripcion">
-      <div class="subtitulo">Recibe nuestras novedades</div>
-      <div class="formulario">
-        <input type="text" placeholder="Tu correo">
-        <div class="boton" onclick="alert('¡Gracias!')">Suscribirme</div>
-      </div>
-    </div>
+    <section class="seccion" id="suscripcion">
+      <h2>Recibe nuestras novedades</h2>
+
+      <form class="formulario" action="#" method="post">
+        <label for="correo">Correo electronico</label>
+        <input type="email" id="correo" name="correo" required>
+
+      <button type="submit">Suscribirme</button>
+    </form>
+</section>
 
   </main>
 
